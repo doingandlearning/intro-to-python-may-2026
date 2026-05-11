@@ -1,0 +1,9 @@
+.idea
+.venv
+venv
+~$*
+.DS_Store
+.pytest_cache
+__pycache__
+.cursorrules
+quiz_answers/
