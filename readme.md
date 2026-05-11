@@ -1,6 +1,6 @@
 # Python Programming Course (Comprehensive Overview)
 
-- Dates: 27th-29th April 2026 
+- Dates: 11th-13th May 2026 
 - Instructor: Kevin Cunningham
   - [Email](mailto:kevin@kevincunningham.co.uk)
   - [My website](https://kevincunningham.co.uk)
@@ -94,14 +94,3 @@ This three-day course offers a practical, hands-on journey into the world of Pyt
 - Working with JSON data
 - Fetching live data from a web API
 
-### 13. Matplotlib (Optional)
-
-- Introduction to data visualization with Matplotlib
-- Creating basic plots, charts, and graphs
-- Customizing and exporting visualizations
-
-### 14. Generators (Optional)
-
-- Understanding Python generators and `yield`
-- Creating and using generator functions
-- Practical examples of using generators for efficiency
