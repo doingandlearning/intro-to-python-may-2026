@@ -35,6 +35,7 @@ print(add(1,2))
 # anonymous function
 
 def get_town(dictionary):
+  print("Getting town ... ")
   return dictionary.get("location", {}).get("town", "Unknown")
 
 

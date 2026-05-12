@@ -6,6 +6,7 @@ def amounts_above(amounts, threshold):
     return out
 
 def amounts_above(amounts, threshold):
+  # Pythonic Approach (idiomatic python)
   return [amount for amount in amounts if amount > threshold]
 
 check_amounts = [
