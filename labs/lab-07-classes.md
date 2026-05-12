@@ -170,6 +170,24 @@ print(t.get_segment_count())
 
 - Is it obvious which venue belongs to which code when you read the loop?
 
+<details>
+  <summary>Possible solution for Task 4</summary>
+
+```python
+tickets = [
+    Ticket("EVT-2024-LDN-001", "The O2 London"),
+    Ticket("VIP-GALA-NYC", "Brooklyn Steel"),
+    Ticket("STU-2024-01", "O2 Academy Brixton"),
+]
+
+for ticket in tickets:
+    print(ticket)
+    print(f"Segment count: {ticket.get_segment_count()}")
+    print()
+```
+
+</details>
+
 ---
 
 ## Example interaction
