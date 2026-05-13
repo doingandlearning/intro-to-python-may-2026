@@ -1,0 +1,5 @@
+Glass
+Coaster
+Phone
+Camera
+Light

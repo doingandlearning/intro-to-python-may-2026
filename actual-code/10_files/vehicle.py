@@ -20,6 +20,14 @@ class Vehicle:
   def __repr__(self):
     return f"Vehicle(registration={self.registration})"
 
+  def to_dict(self):
+    return {"registration": self.registration,
+            "make": self.make,
+            "model": self.model,
+            "year": self.year,
+            "max_payload_kg": self.max_payload_kg,
+            "status": self.status}
+
   def assign_driver(self, driver_id):
     if self.status != "Available":
       return False
@@ -33,28 +41,3 @@ class Vehicle:
 
   def is_available(self):
     return self.status == "Available"
-
-v = Vehicle(registration="HJ10 HYT", make="Ford", model="Transit", 
-            year=2020, max_payload_kg=500, status="Available")
-
-print(v.is_available())
-
-raw_vehicles = [
-    {"registration": "AGZ 1234", "make": "Ford", "model": "Transit", 
-     "year": 2020, "max_payload_kg": 7000, "status": "Available"},
-    {"registration": None, "make": "Ford", "model": "Transit", 
-     "year": 2020, "max_payload_kg": 7000, "status": "Available"},
-    {"registration": "AGZ 1236", "make": "Ford", "model": "Transit", 
-     "year": "old", "max_payload_kg": 7000, "status": "Available"},
-]
-
-vechiles = []
-
-for data in raw_vehicles:
-  try:
-    vechiles.append(Vehicle(**data))
-  except (ValueError, TypeError) as e:
-    print(f"Skipping invalid vehicle: {e}")
-
-print(vechiles)
-
