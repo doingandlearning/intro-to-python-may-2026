@@ -56,7 +56,21 @@ Instead of pasting ticket rows into `main_events.py`, you will open `events.csv`
 
 ```python
 import csv
+
+# either import if you have it
 from ticket_module import Ticket
+
+# or use it directly
+class Ticket:
+    def __init__(self, code, venue):
+        self.code = code
+        self.venue = venue
+
+    def __str__(self):
+        return f"{self.code} @ {self.venue}"
+
+    def get_segment_count(self):
+        return len(self.code.split("-"))
 
 def main():
     tickets = []
