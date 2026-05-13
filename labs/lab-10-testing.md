@@ -30,6 +30,18 @@ You have a `Ticket` class that should behave consistently (store `code` / `venue
 ```python
 # test_ticket.py
 from ticket_module import Ticket
+
+# or
+class Ticket:
+    def __init__(self, code, venue):
+        self.code = code
+        self.venue = venue
+
+    def __str__(self):
+        return f"{self.code} @ {self.venue}"
+
+    def get_segment_count(self):
+        return len(self.code.split("-"))
 ```
 
 </details>
