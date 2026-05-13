@@ -1,0 +1,25 @@
+registration,make,model,year,max_payload_kg,status
+AGZ 1234,Ford,Transit,2020,7000,Available
+AGZ 1235,Mercedes,Sprinter,2021,3500,Available
+AGZ 1236,Scania,R450,2022,18000,Available
+AGZ 1237,DAF,XF,2021,25000,Available
+AGZ 1238,Volvo,FH16,2019,24000,Available
+AGZ 1239,Ford,Transit,2023,7000,Available
+AGZ 1240,Mercedes,Actros,2020,16000,Available
+,Volvo,FH16,2019,25000,Available
+AGZ 1242,Scania,R450,2022,18000,Available
+AGZ 1243,Ford,Transit,2021,-500,Available
+AGZ 1244,DAF,XF,2022,25000,Available
+AGZ 1245,Mercedes,Sprinter,2020,3500,Available
+AGZ 1246,Ford,Transit,2023,7000,Available
+,Scania,R450,2021,18000,Available
+AGZ 1248,Volvo,FM,2019,12000,Available
+AGZ 1249,DAF,LF,2022,-250,Available
+AGZ 1250,Mercedes,Actros,2021,16000,Available
+AGZ 1251,Ford,Transit,2020,7000,Available
+AGZ 1252,Scania,G450,2023,20000,Available
+AGZ 1253,Volvo,FH,2022,-100,Available
+HG12 HYS,BMW,Sprinter,2023,1000,Available
+HG13 HYS,BMW,Sprinter,2023,1000,Available
+HG13 HYS,BMW,Sprinter,2023,1000,Available
+HG13 HYS,BMW,Sprinter,2023,1000,Available
