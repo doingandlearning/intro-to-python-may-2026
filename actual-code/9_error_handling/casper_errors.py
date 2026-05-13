@@ -1,0 +1,2 @@
+class CasperNegativeError(Exception):
+  pass

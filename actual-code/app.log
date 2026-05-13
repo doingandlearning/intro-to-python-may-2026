@@ -1,0 +1,21 @@
+ERROR:root:invalid literal for int() with base 10: 'qwe'
+2026-05-12 15:30:44 - root - ERROR - invalid literal for int() with base 10: 'qwe'
+2026-05-12 15:34:01 - root - WARNING - invalid literal for int() with base 10: 'qwe'
+2026-05-12 15:34:29 - root - DEBUG - Program Started
+2026-05-12 15:34:30 - root - DEBUG - 12
+2026-05-12 15:36:52 - root - DEBUG - Program Started
+2026-05-12 15:36:54 - root - WARNING - Traceback (most recent call last):
+  File "/Users/kevincunningham/code/indicia/python-3-days/actual-code/9_error_handling/1_try.py", line 19, in <module>
+    user_input = int(input("Give me a number: "))
+ValueError: invalid literal for int() with base 10: 'qwe'
+
+2026-05-12 15:38:50 - root - DEBUG - Program Started
+2026-05-12 15:38:54 - root - DEBUG - 10
+2026-05-12 15:38:54 - root - CRITICAL - Traceback (most recent call last):
+  File "/Users/kevincunningham/code/indicia/python-3-days/actual-code/9_error_handling/1_try.py", line 22, in <module>
+    open("unknownfile")
+    ~~~~^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'unknownfile'
+
+2026-05-12 15:49:48 - root - WARNING - Needs to be a positive number - what an idiot!
+2026-05-12 15:51:04 - root - INFO - All ran successfully.
